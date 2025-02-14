@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
       start: "top 80%", // when the top of the trigger hits the top of the viewport
       end: "bottom 30%", // end after scrolling 500px beyond the start
       scrub: true,
-      markers: true,
     },
   });
   tl3.to("#section3 p", {
@@ -74,7 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
       start: "top top", // when the top of the trigger hits the top of the viewport
       end: "bottom 50%", // end after scrolling 500px beyond the start
       scrub: true,
-      markers: true,
     },
   });
   tl4
