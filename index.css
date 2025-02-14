@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tangerine:wght@400;700&display=swap");
+
+body {
+  font-family: "Tangerine", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #0b1215;
+  color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+h2 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 2rem;
+}
+.permanent-marker-regular {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+.sectionGap {
+  height: 50vh;
+}
+#section1 .bg1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  object-fit: cover;
+  z-index: 0;
+  --webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+#section1 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0;
+}
+#section1 p {
+  margin-top: 10px;
+  opacity: 0;
+  font-size: 2.5rem;
+}
+#section1 .pill {
+  margin-top: 10px;
+  padding-inline: 20px;
+}
+#section2 h2 {
+  margin-top: 40px;
+  opacity: 0;
+}
+#section2 p {
+  padding-inline: 20px;
+  opacity: 0;
+}
+#section2 .jan21 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  z-index: 0;
+  --webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+#section3 .boatpic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  z-index: 0;
+  --webkit-mask-image: linear-gradient(transparent, black, transparent);
+  mask-image: linear-gradient(transparent, black, transparent);
+}
+
+#section3 p {
+  padding-inline: 20px;
+  opacity: 0;
+}
+
+#section4 p {
+  padding-inline: 20px;
+  opacity: 0;
+}
+
+#section4 .babypic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  --webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+
+#section5 .circleCut {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  --webkit-mask-image: linear-gradient(transparent, black, transparent);
+  mask-image: linear-gradient(transparent, black, transparent);
+}
+
+#section5 p {
+  margin-bottom: 0;
+}
+
+.heart {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  clip-path: polygon(50% 15%, 100% 50%, 50% 100%, 0% 50%);
+  opacity: 0;
+}
